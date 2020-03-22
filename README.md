@@ -4,6 +4,8 @@
 A couple of years ago I made this guessing game for my kids.\
 Because my kids love Minecraft, I made it with a Minecraft theme.
 
+![Screenshot1](Images/ScreenshotGame-1.png)
+
 When I started this project, Swift 3 was the newest version Apple made available.\
 So that's why it's in Swift 3 and not a newer version.
 
