@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E47323C242747A6009B7863 /* NumberOfCards.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0E473235242747A5009B7863 /* NumberOfCards.sks */; };
+		0E47323D242747A6009B7863 /* GuessTheCard.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0E473236242747A5009B7863 /* GuessTheCard.sks */; };
+		0E47323E242747A6009B7863 /* FireFlys.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0E473237242747A5009B7863 /* FireFlys.sks */; };
+		0E47323F242747A6009B7863 /* SadRain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0E473238242747A5009B7863 /* SadRain.sks */; };
+		0E473240242747A6009B7863 /* MagicTouch.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0E473239242747A5009B7863 /* MagicTouch.sks */; };
+		0E473241242747A6009B7863 /* Menu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0E47323A242747A6009B7863 /* Menu.sks */; };
+		0E473242242747A6009B7863 /* Score.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0E47323B242747A6009B7863 /* Score.sks */; };
+		0E473253242747C0009B7863 /* LaunchLandscape2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E473243242747BF009B7863 /* LaunchLandscape2048.png */; };
+		0E473254242747C0009B7863 /* GuessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E473244242747BF009B7863 /* GuessIcon.png */; };
+		0E473255242747C0009B7863 /* Cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E473245242747BF009B7863 /* Cow.png */; };
+		0E473256242747C0009B7863 /* Won.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E473246242747BF009B7863 /* Won.png */; };
+		0E473257242747C0009B7863 /* Bee.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E473247242747BF009B7863 /* Bee.png */; };
+		0E473258242747C0009B7863 /* Sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E473248242747BF009B7863 /* Sheep.png */; };
+		0E473259242747C0009B7863 /* LaunchPortrait1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E473249242747BF009B7863 /* LaunchPortrait1024.png */; };
+		0E47325A242747C0009B7863 /* LaunchLandscape1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E47324A242747BF009B7863 /* LaunchLandscape1024.png */; };
+		0E47325B242747C0009B7863 /* LostRain.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E47324B242747BF009B7863 /* LostRain.png */; };
+		0E47325C242747C0009B7863 /* Pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E47324C242747BF009B7863 /* Pig.png */; };
+		0E47325D242747C0009B7863 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E47324D242747BF009B7863 /* spark.png */; };
+		0E47325E242747C0009B7863 /* Highscore.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E47324E242747C0009B7863 /* Highscore.png */; };
+		0E47325F242747C0009B7863 /* LaunchPortrait2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E47324F242747C0009B7863 /* LaunchPortrait2048.png */; };
+		0E473260242747C0009B7863 /* GuessCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E473250242747C0009B7863 /* GuessCard.png */; };
+		0E473261242747C0009B7863 /* GamePlayBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E473251242747C0009B7863 /* GamePlayBackground.png */; };
+		0E473262242747C0009B7863 /* MenuScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E473252242747C0009B7863 /* MenuScreen.png */; };
+		0E47326E242747D3009B7863 /* fart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E473267242747D3009B7863 /* fart.wav */; };
+		0E47326F242747D3009B7863 /* Yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E473268242747D3009B7863 /* Yay.mp3 */; };
+		0E7F712C1D4E157200622937 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F712B1D4E157200622937 /* assets.xcassets */; };
+		0E97BBDE1D51C85D0010A8B8 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97BBDD1D51C85D0010A8B8 /* Cards.swift */; };
+		0EA142A424276AC8001DB291 /* Meyd_-_02_-_Elk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EA142A024276AC8001DB291 /* Meyd_-_02_-_Elk.mp3 */; };
+		0EA142A524276AC8001DB291 /* Meydn_-_Fae.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EA142A124276AC8001DB291 /* Meydn_-_Fae.mp3 */; };
+		0EA142A624276AC8001DB291 /* Meydn_-_05_-_Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EA142A224276AC8001DB291 /* Meydn_-_05_-_Rain.mp3 */; };
+		0EA142A724276AC8001DB291 /* Meydn_-_01_-_Interplanetary_Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0EA142A324276AC8001DB291 /* Meydn_-_01_-_Interplanetary_Forest.mp3 */; };
+		0ED061061D53DCD800EDC395 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED061051D53DCD800EDC395 /* Launch Screen.storyboard */; };
+		0EDFEE0A2426544500D2B5F1 /* GuessIcon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEDFB2426544400D2B5F1 /* GuessIcon-29@2x.png */; };
+		0EDFEE0B2426544500D2B5F1 /* GuessIcon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEDFC2426544400D2B5F1 /* GuessIcon-40@3x.png */; };
+		0EDFEE0C2426544500D2B5F1 /* GuessIcon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEDFD2426544400D2B5F1 /* GuessIcon-76@2x.png */; };
+		0EDFEE0D2426544500D2B5F1 /* GuessIcon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEDFE2426544400D2B5F1 /* GuessIcon-60@2x.png */; };
+		0EDFEE0E2426544500D2B5F1 /* GuessIcon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEDFF2426544400D2B5F1 /* GuessIcon-83.5@2x.png */; };
+		0EDFEE0F2426544500D2B5F1 /* GuessIcon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEE002426544400D2B5F1 /* GuessIcon-20.png */; };
+		0EDFEE102426544500D2B5F1 /* GuessIcon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEE012426544400D2B5F1 /* GuessIcon-1024.png */; };
+		0EDFEE112426544500D2B5F1 /* GuessIcon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEE022426544400D2B5F1 /* GuessIcon-29.png */; };
+		0EDFEE122426544500D2B5F1 /* GuessIcon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEE032426544400D2B5F1 /* GuessIcon-60@3x.png */; };
+		0EDFEE132426544500D2B5F1 /* GuessIcon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEE042426544500D2B5F1 /* GuessIcon-76.png */; };
+		0EDFEE142426544500D2B5F1 /* GuessIcon-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEE052426544500D2B5F1 /* GuessIcon-20@2x.png */; };
+		0EDFEE152426544500D2B5F1 /* GuessIcon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEE062426544500D2B5F1 /* GuessIcon-40@2x.png */; };
+		0EDFEE162426544500D2B5F1 /* GuessIcon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEE072426544500D2B5F1 /* GuessIcon-40.png */; };
+		0EDFEE172426544500D2B5F1 /* GuessIcon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEE082426544500D2B5F1 /* GuessIcon-29@3x.png */; };
+		0EDFEE182426544500D2B5F1 /* GuessIcon-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFEE092426544500D2B5F1 /* GuessIcon-20@3x.png */; };
+		0EF54CE31D4FD0D0007F3326 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF54CE21D4FD0D0007F3326 /* Menu.swift */; };
+		0EF54CE51D4FD0DA007F3326 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF54CE41D4FD0DA007F3326 /* Score.swift */; };
+		0EF54CE91D4FE8ED007F3326 /* GameMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF54CE81D4FE8ED007F3326 /* GameMusic.swift */; };
+		0EFDC8261D4DED5C007923EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDC8251D4DED5C007923EB /* AppDelegate.swift */; };
+		0EFDC82A1D4DED5C007923EB /* GuessTheCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDC8291D4DED5C007923EB /* GuessTheCard.swift */; };
+		0EFDC82C1D4DED5C007923EB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDC82B1D4DED5C007923EB /* GameViewController.swift */; };
+		0EFDC82F1D4DED5C007923EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFDC82D1D4DED5C007923EB /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E473235242747A5009B7863 /* NumberOfCards.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = NumberOfCards.sks; path = SpriteKitScene/NumberOfCards.sks; sourceTree = SOURCE_ROOT; };
+		0E473236242747A5009B7863 /* GuessTheCard.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GuessTheCard.sks; path = SpriteKitScene/GuessTheCard.sks; sourceTree = SOURCE_ROOT; };
+		0E473237242747A5009B7863 /* FireFlys.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = FireFlys.sks; path = SpriteKitScene/FireFlys.sks; sourceTree = SOURCE_ROOT; };
+		0E473238242747A5009B7863 /* SadRain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = SadRain.sks; path = SpriteKitScene/SadRain.sks; sourceTree = SOURCE_ROOT; };
+		0E473239242747A5009B7863 /* MagicTouch.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = MagicTouch.sks; path = SpriteKitScene/MagicTouch.sks; sourceTree = SOURCE_ROOT; };
+		0E47323A242747A6009B7863 /* Menu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Menu.sks; path = SpriteKitScene/Menu.sks; sourceTree = SOURCE_ROOT; };
+		0E47323B242747A6009B7863 /* Score.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Score.sks; path = SpriteKitScene/Score.sks; sourceTree = SOURCE_ROOT; };
+		0E473243242747BF009B7863 /* LaunchLandscape2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchLandscape2048.png; path = Images/LaunchLandscape2048.png; sourceTree = SOURCE_ROOT; };
+		0E473244242747BF009B7863 /* GuessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GuessIcon.png; path = Images/GuessIcon.png; sourceTree = SOURCE_ROOT; };
+		0E473245242747BF009B7863 /* Cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cow.png; path = Images/Cow.png; sourceTree = SOURCE_ROOT; };
+		0E473246242747BF009B7863 /* Won.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Won.png; path = Images/Won.png; sourceTree = SOURCE_ROOT; };
+		0E473247242747BF009B7863 /* Bee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bee.png; path = Images/Bee.png; sourceTree = SOURCE_ROOT; };
+		0E473248242747BF009B7863 /* Sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sheep.png; path = Images/Sheep.png; sourceTree = SOURCE_ROOT; };
+		0E473249242747BF009B7863 /* LaunchPortrait1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchPortrait1024.png; path = Images/LaunchPortrait1024.png; sourceTree = SOURCE_ROOT; };
+		0E47324A242747BF009B7863 /* LaunchLandscape1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchLandscape1024.png; path = Images/LaunchLandscape1024.png; sourceTree = SOURCE_ROOT; };
+		0E47324B242747BF009B7863 /* LostRain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LostRain.png; path = Images/LostRain.png; sourceTree = SOURCE_ROOT; };
+		0E47324C242747BF009B7863 /* Pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pig.png; path = Images/Pig.png; sourceTree = SOURCE_ROOT; };
+		0E47324D242747BF009B7863 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = Images/spark.png; sourceTree = SOURCE_ROOT; };
+		0E47324E242747C0009B7863 /* Highscore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Highscore.png; path = Images/Highscore.png; sourceTree = SOURCE_ROOT; };
+		0E47324F242747C0009B7863 /* LaunchPortrait2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchPortrait2048.png; path = Images/LaunchPortrait2048.png; sourceTree = SOURCE_ROOT; };
+		0E473250242747C0009B7863 /* GuessCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GuessCard.png; path = Images/GuessCard.png; sourceTree = SOURCE_ROOT; };
+		0E473251242747C0009B7863 /* GamePlayBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GamePlayBackground.png; path = Images/GamePlayBackground.png; sourceTree = SOURCE_ROOT; };
+		0E473252242747C0009B7863 /* MenuScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MenuScreen.png; path = Images/MenuScreen.png; sourceTree = SOURCE_ROOT; };
+		0E473267242747D3009B7863 /* fart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fart.wav; path = Sound/fart.wav; sourceTree = SOURCE_ROOT; };
+		0E473268242747D3009B7863 /* Yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Yay.mp3; path = Sound/Yay.mp3; sourceTree = SOURCE_ROOT; };
+		0E7F712B1D4E157200622937 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		0E97BBDD1D51C85D0010A8B8 /* Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		0EA142A024276AC8001DB291 /* Meyd_-_02_-_Elk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Meyd_-_02_-_Elk.mp3"; path = "Sound/Meyd_-_02_-_Elk.mp3"; sourceTree = SOURCE_ROOT; };
+		0EA142A124276AC8001DB291 /* Meydn_-_Fae.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Meydn_-_Fae.mp3"; path = "Sound/Meydn_-_Fae.mp3"; sourceTree = SOURCE_ROOT; };
+		0EA142A224276AC8001DB291 /* Meydn_-_05_-_Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Meydn_-_05_-_Rain.mp3"; path = "Sound/Meydn_-_05_-_Rain.mp3"; sourceTree = SOURCE_ROOT; };
+		0EA142A324276AC8001DB291 /* Meydn_-_01_-_Interplanetary_Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Meydn_-_01_-_Interplanetary_Forest.mp3"; path = "Sound/Meydn_-_01_-_Interplanetary_Forest.mp3"; sourceTree = SOURCE_ROOT; };
+		0ED061051D53DCD800EDC395 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0EDFEDFB2426544400D2B5F1 /* GuessIcon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-29@2x.png"; path = "iOS/AppIcon.appiconset/GuessIcon-29@2x.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEDFC2426544400D2B5F1 /* GuessIcon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-40@3x.png"; path = "iOS/AppIcon.appiconset/GuessIcon-40@3x.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEDFD2426544400D2B5F1 /* GuessIcon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-76@2x.png"; path = "iOS/AppIcon.appiconset/GuessIcon-76@2x.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEDFE2426544400D2B5F1 /* GuessIcon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-60@2x.png"; path = "iOS/AppIcon.appiconset/GuessIcon-60@2x.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEDFF2426544400D2B5F1 /* GuessIcon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-83.5@2x.png"; path = "iOS/AppIcon.appiconset/GuessIcon-83.5@2x.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEE002426544400D2B5F1 /* GuessIcon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-20.png"; path = "iOS/AppIcon.appiconset/GuessIcon-20.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEE012426544400D2B5F1 /* GuessIcon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-1024.png"; path = "iOS/AppIcon.appiconset/GuessIcon-1024.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEE022426544400D2B5F1 /* GuessIcon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-29.png"; path = "iOS/AppIcon.appiconset/GuessIcon-29.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEE032426544400D2B5F1 /* GuessIcon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-60@3x.png"; path = "iOS/AppIcon.appiconset/GuessIcon-60@3x.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEE042426544500D2B5F1 /* GuessIcon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-76.png"; path = "iOS/AppIcon.appiconset/GuessIcon-76.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEE052426544500D2B5F1 /* GuessIcon-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-20@2x.png"; path = "iOS/AppIcon.appiconset/GuessIcon-20@2x.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEE062426544500D2B5F1 /* GuessIcon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-40@2x.png"; path = "iOS/AppIcon.appiconset/GuessIcon-40@2x.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEE072426544500D2B5F1 /* GuessIcon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-40.png"; path = "iOS/AppIcon.appiconset/GuessIcon-40.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEE082426544500D2B5F1 /* GuessIcon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-29@3x.png"; path = "iOS/AppIcon.appiconset/GuessIcon-29@3x.png"; sourceTree = SOURCE_ROOT; };
+		0EDFEE092426544500D2B5F1 /* GuessIcon-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuessIcon-20@3x.png"; path = "iOS/AppIcon.appiconset/GuessIcon-20@3x.png"; sourceTree = SOURCE_ROOT; };
+		0EF54CE21D4FD0D0007F3326 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		0EF54CE41D4FD0DA007F3326 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		0EF54CE81D4FE8ED007F3326 /* GameMusic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMusic.swift; sourceTree = "<group>"; };
+		0EFDC8221D4DED5C007923EB /* GuessGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFDC8251D4DED5C007923EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EFDC8291D4DED5C007923EB /* GuessTheCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheCard.swift; sourceTree = "<group>"; };
+		0EFDC82B1D4DED5C007923EB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0EFDC82E1D4DED5C007923EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EFDC8351D4DED5C007923EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EFDC81F1D4DED5B007923EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0182671D520CC800EA7BD0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0E473237242747A5009B7863 /* FireFlys.sks */,
+				0E473236242747A5009B7863 /* GuessTheCard.sks */,
+				0E473239242747A5009B7863 /* MagicTouch.sks */,
+				0E47323A242747A6009B7863 /* Menu.sks */,
+				0E473235242747A5009B7863 /* NumberOfCards.sks */,
+				0E473238242747A5009B7863 /* SadRain.sks */,
+				0E47323B242747A6009B7863 /* Score.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		0EC222641D4E41BF001DA0FF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0EA142A024276AC8001DB291 /* Meyd_-_02_-_Elk.mp3 */,
+				0EA142A324276AC8001DB291 /* Meydn_-_01_-_Interplanetary_Forest.mp3 */,
+				0EA142A224276AC8001DB291 /* Meydn_-_05_-_Rain.mp3 */,
+				0EA142A124276AC8001DB291 /* Meydn_-_Fae.mp3 */,
+				0E473267242747D3009B7863 /* fart.wav */,
+				0E473268242747D3009B7863 /* Yay.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		0ECD95FA1D512BE1003E64B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0E473247242747BF009B7863 /* Bee.png */,
+				0E473245242747BF009B7863 /* Cow.png */,
+				0E473251242747C0009B7863 /* GamePlayBackground.png */,
+				0E473250242747C0009B7863 /* GuessCard.png */,
+				0E473244242747BF009B7863 /* GuessIcon.png */,
+				0E47324E242747C0009B7863 /* Highscore.png */,
+				0E47324A242747BF009B7863 /* LaunchLandscape1024.png */,
+				0E473243242747BF009B7863 /* LaunchLandscape2048.png */,
+				0E473249242747BF009B7863 /* LaunchPortrait1024.png */,
+				0E47324F242747C0009B7863 /* LaunchPortrait2048.png */,
+				0E47324B242747BF009B7863 /* LostRain.png */,
+				0E473252242747C0009B7863 /* MenuScreen.png */,
+				0E47324C242747BF009B7863 /* Pig.png */,
+				0E473248242747BF009B7863 /* Sheep.png */,
+				0E47324D242747BF009B7863 /* spark.png */,
+				0E473246242747BF009B7863 /* Won.png */,
+				0EDFEE002426544400D2B5F1 /* GuessIcon-20.png */,
+				0EDFEE052426544500D2B5F1 /* GuessIcon-20@2x.png */,
+				0EDFEE092426544500D2B5F1 /* GuessIcon-20@3x.png */,
+				0EDFEE022426544400D2B5F1 /* GuessIcon-29.png */,
+				0EDFEDFB2426544400D2B5F1 /* GuessIcon-29@2x.png */,
+				0EDFEE082426544500D2B5F1 /* GuessIcon-29@3x.png */,
+				0EDFEE072426544500D2B5F1 /* GuessIcon-40.png */,
+				0EDFEE062426544500D2B5F1 /* GuessIcon-40@2x.png */,
+				0EDFEDFC2426544400D2B5F1 /* GuessIcon-40@3x.png */,
+				0EDFEDFE2426544400D2B5F1 /* GuessIcon-60@2x.png */,
+				0EDFEE032426544400D2B5F1 /* GuessIcon-60@3x.png */,
+				0EDFEE042426544500D2B5F1 /* GuessIcon-76.png */,
+				0EDFEDFD2426544400D2B5F1 /* GuessIcon-76@2x.png */,
+				0EDFEDFF2426544400D2B5F1 /* GuessIcon-83.5@2x.png */,
+				0EDFEE012426544400D2B5F1 /* GuessIcon-1024.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0EFDC8191D4DED5B007923EB = {
+			isa = PBXGroup;
+			children = (
+				0EFDC8241D4DED5C007923EB /* GuessGame */,
+				0EFDC8231D4DED5C007923EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EFDC8231D4DED5C007923EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EFDC8221D4DED5C007923EB /* GuessGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EFDC8241D4DED5C007923EB /* GuessGame */ = {
+			isa = PBXGroup;
+			children = (
+				0EFDC8251D4DED5C007923EB /* AppDelegate.swift */,
+				0EF54CE21D4FD0D0007F3326 /* Menu.swift */,
+				0EFDC8291D4DED5C007923EB /* GuessTheCard.swift */,
+				0E97BBDD1D51C85D0010A8B8 /* Cards.swift */,
+				0EF54CE41D4FD0DA007F3326 /* Score.swift */,
+				0EF54CE81D4FE8ED007F3326 /* GameMusic.swift */,
+				0EFDC82B1D4DED5C007923EB /* GameViewController.swift */,
+				0EFDC82D1D4DED5C007923EB /* Main.storyboard */,
+				0ED061051D53DCD800EDC395 /* Launch Screen.storyboard */,
+				0EFDC8351D4DED5C007923EB /* Info.plist */,
+				0E7F712B1D4E157200622937 /* assets.xcassets */,
+				0E0182671D520CC800EA7BD0 /* Scenes */,
+				0ECD95FA1D512BE1003E64B8 /* Images */,
+				0EC222641D4E41BF001DA0FF /* Sounds */,
+			);
+			path = GuessGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EFDC8211D4DED5B007923EB /* GuessGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFDC8381D4DED5C007923EB /* Build configuration list for PBXNativeTarget "GuessGame" */;
+			buildPhases = (
+				0EFDC81E1D4DED5B007923EB /* Sources */,
+				0EFDC81F1D4DED5B007923EB /* Frameworks */,
+				0EFDC8201D4DED5B007923EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessGame;
+			productName = GuessGame;
+			productReference = 0EFDC8221D4DED5C007923EB /* GuessGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EFDC81A1D4DED5B007923EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Richard Grave";
+				TargetAttributes = {
+					0EFDC8211D4DED5B007923EB = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 0EFDC81D1D4DED5B007923EB /* Build configuration list for PBXProject "GuessGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 0EFDC8191D4DED5B007923EB;
+			productRefGroup = 0EFDC8231D4DED5C007923EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EFDC8211D4DED5B007923EB /* GuessGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EFDC8201D4DED5B007923EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E47325F242747C0009B7863 /* LaunchPortrait2048.png in Resources */,
+				0E47326E242747D3009B7863 /* fart.wav in Resources */,
+				0E47325E242747C0009B7863 /* Highscore.png in Resources */,
+				0ED061061D53DCD800EDC395 /* Launch Screen.storyboard in Resources */,
+				0E473261242747C0009B7863 /* GamePlayBackground.png in Resources */,
+				0EDFEE0B2426544500D2B5F1 /* GuessIcon-40@3x.png in Resources */,
+				0EA142A724276AC8001DB291 /* Meydn_-_01_-_Interplanetary_Forest.mp3 in Resources */,
+				0EA142A524276AC8001DB291 /* Meydn_-_Fae.mp3 in Resources */,
+				0E473241242747A6009B7863 /* Menu.sks in Resources */,
+				0E473254242747C0009B7863 /* GuessIcon.png in Resources */,
+				0E7F712C1D4E157200622937 /* assets.xcassets in Resources */,
+				0EDFEE0C2426544500D2B5F1 /* GuessIcon-76@2x.png in Resources */,
+				0E473253242747C0009B7863 /* LaunchLandscape2048.png in Resources */,
+				0EDFEE142426544500D2B5F1 /* GuessIcon-20@2x.png in Resources */,
+				0E47325C242747C0009B7863 /* Pig.png in Resources */,
+				0EFDC82F1D4DED5C007923EB /* Main.storyboard in Resources */,
+				0E473240242747A6009B7863 /* MagicTouch.sks in Resources */,
+				0EDFEE122426544500D2B5F1 /* GuessIcon-60@3x.png in Resources */,
+				0EDFEE182426544500D2B5F1 /* GuessIcon-20@3x.png in Resources */,
+				0E47323C242747A6009B7863 /* NumberOfCards.sks in Resources */,
+				0EDFEE0E2426544500D2B5F1 /* GuessIcon-83.5@2x.png in Resources */,
+				0E473262242747C0009B7863 /* MenuScreen.png in Resources */,
+				0EDFEE152426544500D2B5F1 /* GuessIcon-40@2x.png in Resources */,
+				0E47323F242747A6009B7863 /* SadRain.sks in Resources */,
+				0EDFEE0D2426544500D2B5F1 /* GuessIcon-60@2x.png in Resources */,
+				0E473257242747C0009B7863 /* Bee.png in Resources */,
+				0EA142A424276AC8001DB291 /* Meyd_-_02_-_Elk.mp3 in Resources */,
+				0E473260242747C0009B7863 /* GuessCard.png in Resources */,
+				0E47325A242747C0009B7863 /* LaunchLandscape1024.png in Resources */,
+				0EDFEE162426544500D2B5F1 /* GuessIcon-40.png in Resources */,
+				0E47323E242747A6009B7863 /* FireFlys.sks in Resources */,
+				0E47325D242747C0009B7863 /* spark.png in Resources */,
+				0EDFEE102426544500D2B5F1 /* GuessIcon-1024.png in Resources */,
+				0E47323D242747A6009B7863 /* GuessTheCard.sks in Resources */,
+				0EDFEE0A2426544500D2B5F1 /* GuessIcon-29@2x.png in Resources */,
+				0E473242242747A6009B7863 /* Score.sks in Resources */,
+				0E473256242747C0009B7863 /* Won.png in Resources */,
+				0EDFEE172426544500D2B5F1 /* GuessIcon-29@3x.png in Resources */,
+				0E47326F242747D3009B7863 /* Yay.mp3 in Resources */,
+				0E473259242747C0009B7863 /* LaunchPortrait1024.png in Resources */,
+				0E47325B242747C0009B7863 /* LostRain.png in Resources */,
+				0E473258242747C0009B7863 /* Sheep.png in Resources */,
+				0EDFEE112426544500D2B5F1 /* GuessIcon-29.png in Resources */,
+				0E473255242747C0009B7863 /* Cow.png in Resources */,
+				0EDFEE0F2426544500D2B5F1 /* GuessIcon-20.png in Resources */,
+				0EDFEE132426544500D2B5F1 /* GuessIcon-76.png in Resources */,
+				0EA142A624276AC8001DB291 /* Meydn_-_05_-_Rain.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EFDC81E1D4DED5B007923EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFDC82A1D4DED5C007923EB /* GuessTheCard.swift in Sources */,
+				0EF54CE91D4FE8ED007F3326 /* GameMusic.swift in Sources */,
+				0EFDC82C1D4DED5C007923EB /* GameViewController.swift in Sources */,
+				0E97BBDE1D51C85D0010A8B8 /* Cards.swift in Sources */,
+				0EF54CE31D4FD0D0007F3326 /* Menu.swift in Sources */,
+				0EFDC8261D4DED5C007923EB /* AppDelegate.swift in Sources */,
+				0EF54CE51D4FD0DA007F3326 /* Score.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EFDC82D1D4DED5C007923EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFDC82E1D4DED5C007923EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EFDC8361D4DED5C007923EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0EFDC8371D4DED5C007923EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EFDC8391D4DED5C007923EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GuessGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RG.GuessGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EFDC83A1D4DED5C007923EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GuessGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RG.GuessGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EFDC81D1D4DED5B007923EB /* Build configuration list for PBXProject "GuessGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFDC8361D4DED5C007923EB /* Debug */,
+				0EFDC8371D4DED5C007923EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFDC8381D4DED5C007923EB /* Build configuration list for PBXNativeTarget "GuessGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFDC8391D4DED5C007923EB /* Debug */,
+				0EFDC83A1D4DED5C007923EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EFDC81A1D4DED5B007923EB /* Project object */;
+}
