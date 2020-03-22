@@ -22,7 +22,10 @@ I installed it on my kids their iPad every time they wanted to play with the gam
 
 #### Resources
 Images:\
-I took the screenshots in [Minecraft](https://www.minecraft.net/en-us/) myself.
+I took the screenshots in [Minecraft](https://www.minecraft.net/en-us/) myself.\
+The old original screenshots weren't that great so I updated them.\
+At the time, there were no bees in Minecraft.
+So now we have a picture of a cute bee :)
 
 Sound effects from:\
 [Freesound.org](https://freesound.org)
