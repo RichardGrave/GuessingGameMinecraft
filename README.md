@@ -14,7 +14,7 @@ and learn from it. So I created this in couple of days (or a week, I don't remem
 
 For an experienced Swift developer this code may look like rubbish\
 and maybe I could have done things better/different,\
-but for somebody like me who has just started learning Swift this looks pretty good ;)
+but for somebody like me who had just started learning Swift this looks pretty good ;)
  
 ##### Additional info
 I don't have a developer account, so this is NOT in Apple's App Store.\
