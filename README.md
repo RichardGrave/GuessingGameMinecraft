@@ -30,7 +30,7 @@ So now we have a picture of a cute bee :)
 Sound effects from:\
 [Freesound.org](https://freesound.org)
 
-Music used from:\
+Music (also updated) used from:\
 [Free Music Archive - Artist Meydän](http://freemusicarchive.org/music/Meydan)\
 And his music is licensed under a:\
 [Attribution License](https://creativecommons.org/licenses/by/4.0/)\
